@@ -12,13 +12,7 @@ const actionCreators ={
   ...recipesCreators
 }
 
-const ENTER_CHAR_CODE = 13
-
 class App extends Component {
-  componentDidMount ( ) {
-    this.props.fetchRecipes('Hello, dog')
-  }
-
   render() {
     const { props } = this
     return (
